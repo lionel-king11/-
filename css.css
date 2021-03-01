@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:skyblue
+}
+#main{
+    position: relative;
+    
+}
+.item1{
+    position: absolute;
+    top:50%;
+    left: 5rem;
+    width: 20rem;
+    height: 20rem;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.item2{
+    top:50%;
+    left: 1rem;
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2rem;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.active{
+    opacity: 1 !important;
+}
+#top{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 1rem;
+
+}
+.item2 div{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+#input{
+    height: 1.5rem;
+    width: 14rem;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+
+}
+#button{
+    height: 1.5rem;
+    width: 1.5rem;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+
+}
+#button img{
+    height: 1rem;
+    width: 1rem;
+ 
+}
+.box{
+    margin-top: 8rem;
+    font-style: normal;
+}
+#box_img{
+    height: 2rem;
+    width: 2rem;
+    vertical-align: center;
+    margin-bottom: 0;
+}
+h2{
+    margin-top: 0.3rem;
+
+}
+h3{
+    margin-top: 0.3rem;
+
+}
+h4{
+    color: black;
+    margin-top: 0.1rem;
+
+}
+h5{
+    margin-top: 0.1rem;
+}
+.on{
+    color: snow;
+}
+.point1{
+    margin-left: 3.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+.point2{
+    margin-left: 3.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+#bottom{
+    position:fixed;
+    bottom:0;
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: nowrap;
+}
